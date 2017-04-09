@@ -1,18 +1,14 @@
 <template>
-<div style="width: 250px;">
+<div style="width: 250px; display: inline-block;">
   <h1>{{ newsData.title }}</h1>
-  <p>{{ newsData.description }}</p>
-  <img :src="newsData.banner" width="200">
+  <p>{{ newsData.text1 }}</p>
+  <img src="http://static.tvtropes.org/pmwiki/pub/images/vegetavwx2014_928.jpg" width="200">
 </div>
 </template>
 
 <script>
 export default {
   name: 'News',
-  data() {
-    return {
-      newsData: {title: 'News title', description: 'This is the news description', banner: 'https://i.ytimg.com/vi/MlxKE1JaGcQ/maxresdefault.jpg'}
-    };
-  }
+  props: ['newsData']
 };
 </script>

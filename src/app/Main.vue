@@ -2,7 +2,7 @@
   <div id="root">
     <header-component></header-component>
     <main>
-      <news></news>
+      <news-list></news-list>
     </main>
     <footer-component></footer-component>
   </div>
@@ -12,7 +12,7 @@
 import Header from './Header.vue';
 import Title from './Title.vue';
 import Techs from './techs/Techs.vue';
-import News from './components/news/news.vue';
+import newsList from './components/news/newsList.vue';
 import Footer from './Footer.vue';
 
 export default {
@@ -22,7 +22,7 @@ export default {
     'title-component': Title,
     'techs': Techs,
     'footer-component': Footer,
-    'news': News
+    'news-list': newsList
   }
 };
 </script>
