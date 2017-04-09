@@ -1,8 +1,14 @@
 # top-news
 Shows news information.
 
+## Plans
+[Planning Board](https://github.com/kapit4n/top-news/projects/1)
+
 ## Install
 npm run serve
+
+## Mockups
+![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top_news.png)
 
 ## DEV
 ### Create new component
