@@ -7,6 +7,9 @@ Shows news information.
 ## Install
 npm run serve
 
+## Mockups
+![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top_news.png)
+
 ## DEV
 ### Create new component
 yo fountain-vue:component --name myComponent --dir components/game
