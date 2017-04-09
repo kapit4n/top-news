@@ -1,6 +1,9 @@
 # top-news
 Shows news information.
 
+## Plans
+[Planning Board](https://github.com/kapit4n/top-news/projects/1)
+
 ## Install
 npm run serve
 
