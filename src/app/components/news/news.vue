@@ -1,13 +1,17 @@
 <template>
-  <h1>{{ text }}</h1>
+<div style="width: 250px;">
+  <h1>{{ newsData.title }}</h1>
+  <p>{{ newsData.description }}</p>
+  <img :src="newsData.banner" width="200">
+</div>
 </template>
 
 <script>
 export default {
-  name: 'news',
+  name: 'News',
   data() {
     return {
-      text: 'My new component'
+      newsData: {title: 'News title', description: 'This is the news description', banner: 'https://i.ytimg.com/vi/MlxKE1JaGcQ/maxresdefault.jpg'}
     };
   }
 };
