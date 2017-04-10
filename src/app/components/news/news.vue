@@ -1,8 +1,10 @@
 <template>
-<div style="width: 250px; display: inline-block;">
-  <h1>{{ newsData.title }}</h1>
+<div style="width: 250px; display: inline-block;" v-if="newsData.title !== 'noTitle'">
+  <h3> <a v-bind:href="newsData.link" style="color: black;">{{ newsData.title }}</a></h3>
   <p>{{ newsData.body }}</p>
-  <img src="http://static.tvtropes.org/pmwiki/pub/images/vegetavwx2014_928.jpg" width="200">
+	<div v-if="newsData.imgUrl !== 'noImage'">
+  	<img v-bind:src="newsData.imgUrl" style="max-width: 150px;">
+	</div>
 </div>
 </template>
 
