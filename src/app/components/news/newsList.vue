@@ -11,7 +11,6 @@ import Vue from 'vue';
 import VueResource from 'vue-resource';
 Vue.use(VueResource);
 import News from './news.vue';
-
 export default {
   name: 'newsList',
   data() {
@@ -21,7 +20,8 @@ export default {
   },
   created() {
     return this.$http
-      .get('app/techs/techs.json')
+      .get('http://localhost:9000/v1/news'
+     )
       .then(response => response.json())
       .then(response => {
         this.newsList = response;
