@@ -2,11 +2,11 @@
   <header class="header">
     <p class="header-title">
       <a href="https://github.com/FountainJS/generator-fountain-webapp" target="_blank" rel="noopener noreferrer">
-        Fountain Generator
+        TOP NEWS
       </a>
     </p>
     <p class="header-date">
-      Generated with FountainJS v0.6.0 on Wed Aug 10 2016 10:13:26 GMT+0200 (CEST)
+      Get all top news from most visited news pages
     </p>
   </header>
 </template>
