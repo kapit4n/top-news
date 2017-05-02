@@ -1,6 +1,11 @@
 # top-news
 Shows news information.
 
+## Prerequisites
+* node
+* npm
+* run (https://github.com/kapit4n/play-news-api)
+
 ## Plans
 [Planning Board](https://github.com/kapit4n/top-news/projects/1)
 
