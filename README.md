@@ -5,6 +5,7 @@ Shows news information.
 * node
 * npm
 * run (https://github.com/kapit4n/play-news-api)
+* scrap data with (https://github.com/kapit4n/scrappy-example)
 
 ## Plans
 [Planning Board](https://github.com/kapit4n/top-news/projects/1)
