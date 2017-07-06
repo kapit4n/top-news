@@ -1,5 +1,5 @@
 # top-news
-Shows news information.
+Shows news information scraped with (https://github.com/kapit4n/scrappy-example).
 
 ## Prerequisites
 * node
