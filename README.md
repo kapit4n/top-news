@@ -1,5 +1,6 @@
 # top-news
 Shows news information scraped with (https://github.com/kapit4n/scrappy-example).
+![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top_news.png)
 
 ## Prerequisites
 * node
@@ -12,9 +13,6 @@ Shows news information scraped with (https://github.com/kapit4n/scrappy-example)
 
 ## Install
 npm run serve
-
-## Mockups
-![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top_news.png)
 
 ## DEV
 ### Create new component
