@@ -13,7 +13,7 @@ Shows news information.
 npm run serve
 
 ## Mockups
-![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top_news.png)
+![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top-news-home0.1.png)
 
 ## DEV
 ### Create new component
