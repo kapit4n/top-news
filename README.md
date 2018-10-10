@@ -1,6 +1,12 @@
 # top-news
+<<<<<<< HEAD
+Shows news information.
+![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top-news-home0.1.png)
+
+=======
 Shows news information scraped with (https://github.com/kapit4n/scrappy-example).
 ![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top_news.png)
+>>>>>>> master
 
 ## Prerequisites
 * node
