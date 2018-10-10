@@ -1,5 +1,7 @@
 # top-news
 Shows news information.
+![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top-news-home0.1.png)
+
 
 ## Prerequisites
 * node
@@ -11,9 +13,6 @@ Shows news information.
 
 ## Install
 npm run serve
-
-## Mockups
-![Top News](https://github.com/kapit4n/top-news/raw/master/mockups/top-news-home0.1.png)
 
 ## DEV
 ### Create new component
